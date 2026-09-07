@@ -1,4 +1,4 @@
-# 💰 Financial Data Analysis Using SQL
+#  Financial Data Analysis Using SQL
 
 A comprehensive SQL project analyzing personal/business financial data — covering income, expenses, savings, budgets, account balances, and spending trends using MySQL.
 
