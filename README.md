@@ -330,10 +330,26 @@ JOIN categories ON categories.category_id = transactions.category_id;
 
 ---
 
+## 📈 Key Results
+
+| Metric | Value |
+|---|---|
+| Total Records in Dataset | 2,000 |
+| Total Income | ₹14,81,602.09 |
+| Total Expenses | ₹15,08,106.99 |
+| Net Savings | −₹26,504.90 |
+| Savings Rate | −1.79% |
+| Total Transactions | 2,000 |
+| Active Accounts | 1,254 |
+
+**Observation:** Total expenses (₹15.08L) slightly exceeded total income (₹14.82L) across the dataset, resulting in a **negative net savings** of ₹26,504.90 and a **savings rate of −1.79%**. This kind of finding is exactly what a structured SQL analysis is meant to surface early — a household or business spending marginally more than it earns, before the gap widens.
+
+---
+
 ## 📊 Key Insights
 
-- Calculated **total income, expenses, and net savings** across all accounts.
-- Derived the **savings rate** to measure financial health.
+- Calculated **total income (₹14.82L), total expenses (₹15.08L)**, and a **net savings of −₹26,504.90** across all accounts.
+- Derived a **savings rate of −1.79%**, revealing that expenses slightly outpaced income overall.
 - Built a **month-over-month cash flow** view to track trends.
 - Identified **top income sources** and **highest-spending expense categories**.
 - Compared **actual vs. budgeted spending** to flag variance.
